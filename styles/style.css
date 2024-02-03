@@ -13,6 +13,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -57,7 +60,6 @@ ol {
 .content {
   width: 1140px;
   margin: 0 auto;
-  padding-top: 133px;
   display: grid;
   align-items: end;
   grid-template-columns: 711px 399px;
