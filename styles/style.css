@@ -104,6 +104,7 @@ ol {
 }
 
 .search-form__textfield {
+  color: white;
   background-color: transparent;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -254,7 +255,6 @@ ol {
   height: 34px;
 }
 
-
 /* == CONDITIONS STYLING  == */
 
 /* HOVER */
@@ -287,12 +287,20 @@ ol {
 
 .search-form__textfield:focus {
   outline: 1px solid white;
+  outline-offset: 1px;
 }
 
-.search-form__label:focus {
+.search-form__label:has(:focus-visible) {
   outline: 1px solid white;
+  outline-offset: 1px;
 }
 
 .button:focus {
   outline: 1px solid white;
+  outline-offset: 1px;
+}
+
+.content__card-linkl:has(:focus-visible) {
+  outline: 1px solid white;
+  outline-offset: 1px;
 }
