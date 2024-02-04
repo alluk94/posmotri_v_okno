@@ -196,7 +196,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  border: 1px solid wheat;
+  /* border: 1px solid wheat; */
 }
 
 .content__list {
